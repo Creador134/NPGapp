@@ -1,3 +1,16 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Titillium-Regular.otf);
+}
+
+body{
+    font-family: myFirstFont, sans-serif, Arial;
+}
+
+.page {
+    font-family: myFirstFont, sans-serif, Arial;
+}
+
 .left {
 	text-align: left;
 }
@@ -10,7 +23,7 @@
     line-height: 1.4;
     background-color: #33393c;
     text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 0px;
-    background-image: url("/images/Arma.jpg");
+    background-image: url("../images/Arma.jpg");
     background-size: cover;
 }
 
@@ -63,17 +76,19 @@
 
 .menu-list{
     background: none;
+
 }
 
 .ons-list-item-inner{
     color: #ddd;
-    border-color:#222;
+    border-color:#222 !important;
     padding:10px;
+    font-family: myFirstFont, sans-serif, Arial;
 }
 
 .list__item:first-child {
     border-top: none;
-    border-bottom: 1px solid #222;
+    border-bottom: 1px solid #222 !important;
 }
 
 .icon-space{
