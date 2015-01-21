@@ -51,7 +51,8 @@
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
 
-   <!--  <icon src="images/Icon.png"  gap:platform="android" gap:density="ldpi"  />
+   <!--
+   <icon src="images/Icon.png"  gap:platform="android" gap:density="ldpi"  />
    <icon src="images/Icon-80.png"  gap:platform="android" gap:density="mdpi"  />
    <icon src="images/Icon@2x.png"  gap:platform="android" gap:density="hdpi"  />
     <icon src="images/Icon@2x.png"  gap:platform="android" gap:density="xhdpi" />
@@ -61,7 +62,7 @@
     <icon src="images/Icon.png"  gap:platform="ios"        width="57" height="57" />
     <icon src="images/Icon-120.png" gap:platform="ios" width="120" height="120" />
     <icon src="images/Icon@2x.png"  gap:platform="ios"        width="114" height="114" />
-    <!--
+
     //  <icon src="assets/iphone/appicon-72.png"  gap:platform="ios"        width="72" height="72" />
  //  <icon src="assets/iphone/appicon-72@2x.png"  gap:platform="ios"        width="144" height="144" />
   //  <icon src="assets/iphone/appicon-Small-50.png" gap:platform="ios" width="50" height="50" />
