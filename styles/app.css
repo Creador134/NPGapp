@@ -1,0 +1,82 @@
+.left {
+	text-align: left;
+}
+
+.profile-card {
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+    line-height: 1.4;
+    background-color: #33393c;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 0px;
+    background-image: url("/images/Arma.jpg");
+    background-size: cover;
+}
+
+.profile-image {
+    max-width: 70%;
+    max-height: 200px;
+}
+
+.profile-name {
+    margin: 20px 0 0 0;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.profile-id {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.profile-desc {
+    font-size: 15px;
+    opacity: 0.6;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.info-col {
+    height: 60px;
+    line-height: 1;
+    padding: 12px 0 12px 4px;
+}
+
+.info-num {
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.info-unit {
+    margin-top: 6px;
+    font-size: 14px;
+    opacity: 0.4;
+}
+
+.page--menu-page__content{
+    background: #111 !important;
+}
+
+.menu-list{
+    background: none;
+}
+
+.ons-list-item-inner{
+    color: #ddd;
+    border-color:#222;
+    padding:10px;
+}
+
+.list__item:first-child {
+    border-top: none;
+    border-bottom: 1px solid #222;
+}
+
+.icon-space{
+    margin-right:10px;
+
+}

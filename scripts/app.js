@@ -1,0 +1,1 @@
+var NPG = angular.module('app', ['onsen']);
