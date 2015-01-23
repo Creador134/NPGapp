@@ -21,6 +21,18 @@ NPG.controller('mainController',['$rootScope','$scope','$interval',
         MC.openLink = openExternalURL;
         MC.changeSSI = changeSSI;
 
+        MC.admins2=[
+            {name: "Karl"},
+            {name: "Santa"},
+            {name: "Soul"}
+        ];
+        MC.admins3=[
+            {name: "Steamz"},
+            {name: "Lofty"},
+            {name: "Zupa"}
+
+        ];
+
         function changeSSI(id) {
             MC.ssi = id;
         };

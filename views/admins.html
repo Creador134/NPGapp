@@ -1,0 +1,35 @@
+<ons-page>
+    <ons-toolbar>
+        <div class="left"><ons-back-button>Back </ons-back-button></div>
+        <div class="center"><i  class="fa fa-group" size="28px" fixed-width="false"></i> NPG Admins</div>
+        <div class="right"><ons-toolbar-button><i  class="fa fa-heartbeat" size="28px" fixed-width="false"></i></i></ons-toolbar-button></div>
+    </ons-toolbar>
+    <ons-list class="person-list" >
+        <ons-list-header class="person-list-header">Arma 3</ons-list-header>
+        <ons-list-item class="person" ng-repeat="admin in admins3">
+            <ons-row>
+                <ons-col width="40px">
+                    <img src="images/npg.png" class="person-image">
+                </ons-col>
+                <ons-col class="person-name">
+                    {{admin.name}}
+                </ons-col>
+            </ons-row>
+        </ons-list-item>
+
+
+
+        <ons-list-header class="person-list-header">Arma 2</ons-list-header>
+        <ons-list-item class="person" ng-repeat="admin in admins2">
+            <ons-row>
+                <ons-col width="40px">
+                    <img src="images/npg.png" class="person-image">
+                </ons-col>
+                <ons-col class="person-name">
+                    {{admin.name}}
+                </ons-col>
+            </ons-row>
+        </ons-list-item>
+    </ons-list>
+
+</ons-page>

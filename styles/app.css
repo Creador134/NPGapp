@@ -221,3 +221,55 @@ body{
     background: #111;
 }
 
+.login-form {
+    text-align: center;
+    width: 80%;
+    margin: 60px auto 0;
+}
+
+input[type=text], input[type=password] {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    outline: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color:white;
+}
+
+.login-button {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.forgot-password {
+    display: block;
+    margin: 8px auto 0 auto;
+    font-size: 14px;
+}
+
+.person-list {
+    border-top: none;
+}
+
+.person {
+    line-height: 1;
+    background: #111;
+}
+
+.person-list-header {
+    opacity: 0.6;
+}
+
+.person-name {
+    line-height: 44px;
+}
+
+.person-image {
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+    border-radius: 2px;
+}
+
+
