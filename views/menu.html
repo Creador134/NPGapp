@@ -1,10 +1,10 @@
 <ons-page modifier="menu-page">
     <ons-list class="menu-list">
-        <ons-list-item class="menu-item" ng-click="menu.setMainPage('page1.html', {closeMenu: true})">
+        <ons-list-item class="menu-item" ng-click="menu.closeMenu({});myNavigator.pushPage('views/home.html', { animation: 'none' })">
             <ons-icon icon="fa-home" class="icon-space"  fixed-width="true"></ons-icon>
             <span class="menu-text">Home</span>
         </ons-list-item>
-        <ons-list-item class="menu-item" ng-click="menu.setMainPage('page1.html', {closeMenu: true})">
+        <ons-list-item class="menu-item" ng-click="menu.closeMenu({});myNavigator.pushPage('views/servers.html', { animation: 'none' })">
             <ons-icon icon="fa-database" class="icon-space"  fixed-width="true"></ons-icon>
             <span class="menu-text">Servers</span>
         </ons-list-item>

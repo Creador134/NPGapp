@@ -19,6 +19,8 @@
 </head>
 <body ng-controller="mainController">
 
+<ons-navigator title="Navigator" var="myNavigator">
+
 <script>
 var isOnMobile = false;
 var uniqueId = "0";
@@ -247,7 +249,7 @@ function disableOnsenBack(){
     var="menu" type="reveal" max-slide-distance="260px" swipable="false">
   </ons-sliding-menu>
 
-
+</ons-navigator>
   <script src="scripts/app.js"></script>
   <script src="scripts/mainController.js"></script>
 

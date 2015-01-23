@@ -1,6 +1,6 @@
 <ons-page swipable="false">
 	<ons-toolbar>
-	  <div class="left"><ons-toolbar-button><i  class="fa fa-heartbeat" size="28px" fixed-width="false"></i></ons-toolbar-button></div>
+	  <div class="left"><ons-toolbar-button ><i  class="fa fa-heartbeat" size="28px" fixed-width="false"></i></ons-toolbar-button></div>
 	  <div class="center">NPG</div>
 	  <div class="right"><ons-toolbar-button ng-click="menu.toggleMenu()"><i  class="fa fa-bars" size="28px" fixed-width="false"></i></ons-toolbar-button></div>
 	</ons-toolbar>
@@ -10,13 +10,13 @@
         <div class="profile-desc">By gamers for gamers.</div>
     </div>
     <ons-row class="grid-menu" align="center">
-        <ons-col align="center">
+        <ons-col align="center" ng-click="myNavigator.pushPage('views/servers.html', { animation: 'slide' })">
              <span>
             <i  class="fa fa-gamepad" size="56px" fixed-width="false"></i><br/>
             <span class="home-text">Games</span>
                  </span>
         </ons-col>
-        <ons-col align="center">
+        <ons-col align="center" ng-click="myNavigator.pushPage('views/servers.html', { animation: 'slide' })">
             <span>
             <i  class="fa fa-database" size="56px" fixed-width="false"></i><br/>
             <span class="home-text">Servers</span>

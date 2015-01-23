@@ -1,0 +1,47 @@
+<ons-page>
+    <ons-toolbar>
+        <div class="left"><ons-back-button>Back </ons-back-button></div>
+        <div class="center"></i>{{servers[ssi].namesmall}}</div>
+        <div class="right"><ons-toolbar-button><i  class="fa fa-heartbeat" size="28px" fixed-width="false"></i></i></ons-toolbar-button></div>
+    </ons-toolbar>
+
+
+
+    <img src="http://cache.www.gametracker.com/server_info/{{servers[ssi].ip}}:{{servers[ssi].port}}/b_560_95_1.png" border="0" width="100%"  alt=""/>
+
+    <ons-list class="server-list">
+        <ons-list-header>Info</ons-list-header>
+        <ons-list-item >
+            <ons-icon icon="fa-gamepad" size="20px" fixed-width="true"></ons-icon>
+            {{servers[ssi].game}}
+        </ons-list-item>
+
+        <ons-list-item >
+            <ons-icon icon="fa-star" size="20px" fixed-width="true"></ons-icon>
+            {{servers[ssi].mod}}
+        </ons-list-item>
+
+        <ons-list-header>Connection</ons-list-header>
+
+        <ons-list-item >
+            <ons-icon icon="fa-wifi" size="20px" fixed-width="true"></ons-icon>
+            {{servers[ssi].ip}}
+
+        </ons-list-item>
+
+        <ons-list-item >
+            <ons-icon icon="fa-ellipsis-h" size="20px" fixed-width="true"></ons-icon>
+            {{servers[ssi].port}}
+
+        </ons-list-item>
+
+        <ons-list-item >
+            <ons-icon icon="fa-font" size="20px" fixed-width="true"></ons-icon>
+            <span style="font-size:12px;">{{servers[ssi].name}}</span>
+
+        </ons-list-item>
+
+
+    </ons-list>
+
+</ons-page>
