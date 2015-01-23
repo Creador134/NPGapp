@@ -1,14 +1,16 @@
 @font-face {
-    font-family: myFirstFont;
-    src: url(Roboto-Regular.ttf);
+    font-family: robot;
+    src: url(GOODTIME.ttf);
+
 }
 
 body{
-    font-family: myFirstFont, sans-serif, Arial;
+    font-family: robot,"Roboto", sans-serif, Arial;
+    -webkit-font-smoothing: antialiased;
 }
 
 .page {
-    font-family: myFirstFont, sans-serif, Arial;
+    font-family: robot, "Roboto", sans-serif, Arial;
 }
 
 .left {
@@ -22,9 +24,9 @@ body{
     padding: 30px 0;
     line-height: 1.4;
     background-color: #33393c;
-    text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 0px;
     background-image: url("../images/Arma.jpg");
     background-size: cover;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
 }
 
 .profile-image {
@@ -34,7 +36,7 @@ body{
 
 .profile-name {
     margin: 20px 0 0 0;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 22px;
 }
 
@@ -83,7 +85,7 @@ body{
     color: #ddd;
     border-color:#222 !important;
     padding:10px;
-    font-family: myFirstFont, sans-serif, Arial;
+    font-family: robot, sans-serif, Arial;
 }
 
 .list__item:first-child {
@@ -93,5 +95,39 @@ body{
 
 .icon-space{
     margin-right:10px;
+}
 
+.navigation-bar {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+}
+
+.grid-menu ons-col {
+    background: #111;
+    color: #ddd;
+    border-right : 1px solid #333;
+    text-align: center;
+    border-bottom : 1px solid #333;
+    padding-top:35px;
+    height: 110px;
+
+}
+.grid-menu  {
+    color: #ddd;
+    height: 110px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26) !important;
+}
+
+
+.row + .row {
+    margin-top: 0px !important;
+}
+
+.menu-text{
+    font-size:14px;
+}
+
+.home-text{
+    display: block;
+    margin-top:10px !important;
+    font-size:12px;
 }
