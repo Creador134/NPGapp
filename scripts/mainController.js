@@ -19,8 +19,11 @@ NPG.controller('mainController',['$rootScope','$scope','$interval',
         MC.ssi = 0;
 
         MC.openLink = openExternalURL;
+        MC.changeSSI = changeSSI;
 
-
+        function changeSSI(id) {
+            MC.ssi = id;
+        };
 
 
         function openExternalURL(url) {

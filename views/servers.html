@@ -5,7 +5,7 @@
         <div class="right"><ons-toolbar-button><i  class="fa fa-heartbeat" size="28px" fixed-width="false"></i></i></ons-toolbar-button></div>
     </ons-toolbar>
     <ons-list class="plan-list">
-        <ons-list-item modifier="chevron" class="plan" ng-repeat="server in servers" ng-click="myNavigator.pushPage('views/serverdetail.html', {serverIndex : '$index'});">
+        <ons-list-item modifier="chevron" class="plan" ng-repeat="server in servers" ng-click="changeSSI($index);myNavigator.pushPage('views/serverdetail.html', {});">
             <ons-row>
                 <ons-col width="80px" class="plan-left">
                     <div class="plan-date">{{server.game}}</div>

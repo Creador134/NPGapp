@@ -2563,7 +2563,7 @@ h6 {
   line-height: 44px;
 }
 .list__item_active:active {
-  background-color: #d9d9d9;
+  background-color: #333;
   -webkit-transition: none;
   -moz-transition: none;
   -o-transition: none;
@@ -2651,7 +2651,7 @@ h6 {
   transition: background-color 0.2s linear;
 }
 .list__item--tappable:active {
-  background-color: #d9d9d9;
+  background-color: #333;
   -webkit-transition: none;
   -moz-transition: none;
   -o-transition: none;
@@ -2712,7 +2712,7 @@ h6 {
   overflow: hidden;
 }
 .list__item--chevron:active {
-  background-color: #d9d9d9;
+  background-color: #333;
   -webkit-transition: none;
   -moz-transition: none;
   -o-transition: none;
